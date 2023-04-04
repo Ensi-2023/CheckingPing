@@ -1,0 +1,38 @@
+﻿<Application x:Class="CheckingPing.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CheckingPing"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Style\ButtonStyle.xaml"/>
+                <ResourceDictionary Source="Style\RichEditStyle.xaml"/>
+                <ResourceDictionary Source="Style\ScrollStyle.xaml"/>
+                <ResourceDictionary Source="Style\TextFieldStyle.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <SolidColorBrush Color="#4D737373" x:Key="RichBoxDefaultColor"/>
+            <SolidColorBrush Color="#66E6E6E6" x:Key="RichBoxColor_MouseEnter"/>
+
+
+            <SolidColorBrush Color="#3F1D1D1D" x:Key="BorderColor"/>
+            <SolidColorBrush Color="#33E6E6E6" x:Key="BorderColor_MouseEnter"/>
+            <SolidColorBrush Color="#66E6E6E6" x:Key="BorderColor_Focused"/>
+
+
+            <SolidColorBrush x:Key="ThumbBackground" Color="#7F525252"/>
+            <SolidColorBrush x:Key="ThumbBackgroundMouseEnter" Color="#999B9B9B"/>
+            <SolidColorBrush x:Key="ThumbDragging" Color="#CCA5A5A5"/>
+
+
+
+            <SolidColorBrush x:Key="TextFieldForegroud" Color="#FFEDEDED"/>
+
+            <SolidColorBrush Color="#4D737373" x:Key="TextBoxDefault"/>
+            <SolidColorBrush x:Key="CurretBrushes" Color="#FF171717"/>
+            <SolidColorBrush Color="#7F9C9C9C" x:Key="WotemarkColor"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
